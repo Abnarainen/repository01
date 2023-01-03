@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Nav Section*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left img{
+	width: 145px;
+}
+
+.right{
+margin-right: 20px ;
+align-items: center;
+cursor: pointer;
+}
+
+.material-icons {
+	padding: 10px;
+	color: rgb(100, 100, 100);
+}
+
+.middle a{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight:bold;
+	text-decoration: none;
+	color:black;
+	font-family: 'Roboto Slab', serif;
+	padding:20px;
+}
+
+.middle a:hover{
+	 background: #e5e5e5;
+	 cursor: pointer;
+}
+
+
+/*Front Page Section*/
+
+.cover img{
+width: 100%;
+object-fit: cover;
+height: 100vh;
+margin-bottom: 0;
+
+}
+
+
+.welcome {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcometxt1 {
+	text-transform: uppercase;
+	font-size: 55px;
+	font-weight:bold;
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	 text-shadow: 0px 1px 12px black;
+}
+
+.welcometxt2 {
+	align-items: center;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight:bold;
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	 text-shadow: 0px 1px 3px lightpink;
+	}
+
+/*Biography Section*/
+
+main{
+	background-color: #f2f2f2;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+ .title{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-style: italic;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+ }
+
+ .middlelogo {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+ .mrulogo {
+width: 100px;
+height: 100px;
+border-radius: 100%;
+}
+
+.biographyp {
+	text-align: left;
+    line-height: 1.8;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-family: "Exo", sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+.biographya{
+font-weight:bold;
+ font-size: 17px;
+}
+
+/*Explore Section*/
+
+.explorecontainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.exploreimage{
+  position: relative;
+  text-align: center;
+  margin-right: 5px ;
+  margin-bottom: 5px;
+  width:650px;
+  height: 300px;
+}
+
+.exploreimage:hover {
+  border: 5px solid antiquewhite;
+  cursor: pointer;
+}
+
+
+.exploreimage img{
+ height:100%;
+ width:100%;
+}
+
+.exploretxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 1px 5px black;
+}
+
+#section2{
+	background: #f2f2f2 ;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+#experience{
+	padding-top: 40px;
+}
+
+/*Experience Section*/
+
+.experiencecontainers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.experiencontainer{
+  text-align: right;
+  align-content: center;
+  margin-right: 5px ;
+  margin-bottom: 5px;
+  width:650px;
+  height:300px;
+}
+
+.experiencetexts{
+  margin-bottom: 10px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.experiencetxt{
+text-decoration: underline black;
+  bottom: 100%;
+  font-size:20px;
+  color: Black;
+  font-weight: bold;
+}
+
+
+.experiencecontainer img{
+width:250px;
+height:250px;
+margin-right: 100px;
+margin-bottom: 60px;
+border-radius: 100%;
+transition: all 1s;
+}
+
+.experiencecontainer img:hover {
+ transform: scale(1.1);
+  cursor: pointer;
+}
+
+#section2{
+	padding-bottom: 100px;
+}
+
+
+.button {
+  background-color: Red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 600px;
+}
+
+/*Footer*/
+
+footer{
+	margin-bottom: 50px;
+}
+
+.socialmedias{
+	display: flex;
+	justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
