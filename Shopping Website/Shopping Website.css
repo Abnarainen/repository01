@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Navbar*/
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding:0 50px;
+  overflow: hidden;
+   align-items: center;
+   background-color: black;
+   box-shadow: 0 7px 15px goldenrod;
+}
+
+
+.navbar li {	
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+   padding: 20px 0;
+}
+
+#textright a{
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+    padding: 20px 20px;
+}
+
+#textright:hover {
+  background-color: darkgoldenrod;
+}
+
+#logoleft {
+color: white;
+text-shadow: 0px 1px 15px gold;
+padding: 10px 0 0 30px;
+float:left;
+font-size: 30px;
+}
+
+#logoleft h2{
+  padding-left: 10px;
+  text-shadow: none;
+  color: antiquewhite;
+  font-size: 23px;
+}
+
+P{
+padding-left: 10px;
+	font-size: 20px;
+}
+
+/*Linebar*/
+
+body{
+
+background-color: lightgray;
+
+}
+
+img {
+	position: relative;
+	margin-top: 30px;
+	object-fit: cover;
+	height:89vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  
+}
+
+.linebar{
+	position: absolute;
+   top: 80px;
+  left: 256px;
+  overflow: hidden;
+  align-items: center;
+  background-color: black;
+   box-shadow : 0 6px 15px goldenrod;
+}
+
+.linebar li {
+ color:goldenrod;
+ display:inline-block;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 100.5px;
+  font-size: 20px;
+  text-decoration: underline;
+  border-right: 1px solid white;
+
+}
+
+.linebar li:hover {
+  background-color: goldenrod;
+  color: antiquewhite;
+  cursor: pointer;
+  box-shadow : none;
+}
+
+#lastchild {
+    border-right:1px solid black;
+  }
+
+.covertext {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+  text-align: center;
+  align-content: center;
+  color: antiquewhite;
+  text-shadow: 0px 1px 5px black;
+}
+
+#covertxt1{
+font-size: 50px ;
+border-bottom: 1px solid antiquewhite;
+}
+
+#covertxt2{
+font-size: 30px ;
+}
