@@ -128,3 +128,24 @@ border-bottom: 1px solid antiquewhite;
 #covertxt2{
 font-size: 30px ;
 }
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  background-color:black;
+  padding: 10px 0 10px 0;
+}
+
+footer p{
+  display:block;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 22px;
+}
+
+footer span {
+  text-decoration: underline;
+}

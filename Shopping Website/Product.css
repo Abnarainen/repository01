@@ -12,14 +12,23 @@
    box-shadow: 0 7px 15px goldenrod;
 }
 
+#navbar i{
+	cursor: pointer;
+}
+
 #textright {	
   float: right;
   display: inline-block;
   align-content: center;
   text-decoration: none;
-   padding: 20px 0 20px 20px;
+   padding: 20px 15px 20px 15px;
    color: antiquewhite;
    font-size: 20px;
+}
+
+#textright:hover {
+	color:white;
+	background-color: goldenrod;
 }
 
 #logoleft {
