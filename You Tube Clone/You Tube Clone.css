@@ -76,12 +76,6 @@ cursor: pointer;
   border: none;
 }
 
-/*why dont' we use:
-.mic{
- display: flex;
- align-items: center;
- } */
-
 .mic {
 margin-top: 10px;
 }
