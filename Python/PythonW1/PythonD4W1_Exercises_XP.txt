@@ -1,0 +1,39 @@
+# Exercise 1 : Set
+
+# Create a set called my_fav_numbers with all your favorites numbers.
+# Add two new numbers to the set.
+# Remove the last number.
+# Create a set called friend_fav_numbers with your friend’s favorites numbers.
+# Concatenate my_fav_numbers and friend_fav_numbers to a new variable called our_fav_numbers.
+
+
+# my_fav_numbers = {3,6,7}
+# my_fav_numbers.add(10)
+# my_fav_numbers.add(14)
+# my_fav_numbers.remove(14)
+
+# friend_fav_numbers = {12,13,15,17,18}
+# our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)
+# print(our_fav_numbers)
+
+# --------------------------------------------------------
+
+# Exercise 2: Tuple
+# Instructions
+# Given a tuple which value is integers, is it possible to add more integers to the tuple?
+
+# --> Non
+
+# ----------------------------------------------------
+
+# Exercise 3: List
+# Instructions
+# Using this list basket = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+# Remove “Banana” from the list.
+# Remove “Blueberries” from the list.
+# Add “Kiwi” to the end of the list.
+# Add “Apples” to the beginning of the list.
+# Count how many apples are in the basket.
+# Empty the basket.
+# Print(basket)
