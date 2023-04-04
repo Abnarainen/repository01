@@ -64,7 +64,7 @@
 # Can you think of another way to generate a sequence of floats?
 # Create a list containing the following sequence 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5 (don’t hard-code the sequence).
 
-#--> Solution:
+#--> Solution1:
 # An integer is a number without a decimal point. A float is a floating-point number, which means it is a number that has a decimal place. 
 
 # my_list = list()
@@ -78,15 +78,14 @@
 #     Current_number += 0.5
 # print(my_list)
 
-# new_list = [ Current_number/50 for Current_number in range (3, 11)]
-
+#--> Solution2:
+# new_list = [ Current_number/2 for Current_number in range (3, 11)]
 # my_list.append(int(Current_number)) if Current_number.is_integer() else my_list.append(Current_number)
 
 # new_list = [ int(Current_number / 2)  if (Current_number / 2).is_integer() else Current_number /2 for Current_number in range (3, 11)]
 # print(new_list)
 
-
-#--> Solution 2
+#--> Solution3:
 
 # my_list1 = [1.5,2.5,3.5,4.5]
 # my_list2 = [2,3,4,5]
