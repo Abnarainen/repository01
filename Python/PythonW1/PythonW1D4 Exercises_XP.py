@@ -128,7 +128,7 @@
 #     else: 
 #         print (F"Sorry {user_name}, we do not have the same name :/ ")        
 
-# ----------------------------------------------------
+# ------------------------------------------------------
 
 # Exercise 7: Favorite Fruits
 # Instructions
@@ -138,3 +138,12 @@
 # Now that we have a list of fruits, ask the user to input a name of any fruit.
 # If the user’s input is in the favorite fruits list, print “You chose one of your favorite fruits! Enjoy!”.
 # If the user’s input is NOT in the list, print, “You chose a new fruit. I hope you enjoy”.
+
+#--> Solution:
+# User_info = [input("What is the name of your favorite fruit(s) (one or several fruits)? ")]
+# query_input = input("Input the name of any fruit ")
+
+# if query_input in User_info:
+#     print(f"You chose {query_input} which is one of my favorite fruits! Enjoy it!")
+# else:
+#     print(f"You chose a {query_input}, this is a new fruit. I hope you enjoy.")
