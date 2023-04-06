@@ -190,4 +190,34 @@
 # Given a list of names, write a program that asks teenager for their age, if they are not permitted to watch the movie, remove them from the list.
 # At the end, print the final list.
 
-#--> Solution:
+#--> Solution for age:
+
+# question1 = int(input("Welcome to Cinemax! Indicate how many seats are you booking?"))
+# total_cost = 0
+
+# for persons in range(question1) :
+#     client_age = int(input("What is the age of person {}?".format(persons+1)))
+#     if client_age < 3:
+#         total_cost += 0
+#     elif client_age in range (3,13):
+#         total_cost +=  10
+#     elif client_age > 12:
+#         total_cost += 15
+
+# print(f"The total cost is {total_cost} ")
+
+#--> Solution for teenagers:
+# client_name = ["Abraham", "Martine", "Schon", "Anaelle", "John"]
+# allowed_customer = []
+
+# for client in client_name:
+#     client_age = int(input("What is your age {}? ".format(client)))
+#     if 16 <= client_age >= 21 :
+#         allowed_customer.append(client)
+# print(allowed_customer)
+# ------------------------------------------------------
+
+
+
+
+
