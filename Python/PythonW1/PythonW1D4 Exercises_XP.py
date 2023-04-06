@@ -146,3 +146,46 @@
 #     print(f"You chose {query_input} which is one of my favorite fruits! Enjoy it!")
 # else:
 #     print(f"You chose a {query_input}, this is a new fruit. I hope you enjoy.")
+
+# ------------------------------------------------------
+
+# Exercise 8: Who Ordered A Pizza ?
+# Instructions
+# Write a loop that asks a user to enter a series of pizza toppings, when the user inputs ‘quit’ stop asking for toppings.
+# As they enter each topping, print a message saying you’ll add that topping to their pizza.
+# Upon exiting the loop print all the toppings on the pizza pie and what the total price is (10 + 2.5 for each topping).
+
+#--> Solution:
+# my_list = list()
+# question1 = input("Hello and Welcome to Mauritius Pizza! Do you want to order? (yes/quit)")
+# if question1 == "yes":
+#     while True : 
+#         toppings = input("Enter your toppings (Enter quit to exit)")
+#         if toppings == "quit":
+#             break
+#         else:
+#             my_list.append(toppings)        
+#             print ("We will add that toppings to your pizza!")
+#             question2 = input("Do you want to add more toppings? (yes/quit) ")
+#             if question2 == "quit":
+#                 break
+
+#     print(f"Thank you for ordering at Mauritius Pizza! Here is your order --> {', '.join(my_list)}")
+# else:
+#     print("Thank you! Goodbye")
+
+# ------------------------------------------------------
+# Exercise 9: Cinemax
+# Instructions
+# A movie theater charges different ticket prices depending on a person’s age.
+# if a person is under the age of 3, the ticket is free.
+# if they are between 3 and 12, the ticket is $10.
+# if they are over the age of 12, the ticket is $15.
+
+# Ask a family the age of each person who wants a ticket.
+
+# Store the total cost of all the family’s tickets and print it out.
+
+# A group of teenagers are coming to your movie theater and want to watch a movie that is restricted for people between the ages of 16 and 21.
+# Given a list of names, write a program that asks teenager for their age, if they are not permitted to watch the movie, remove them from the list.
+# At the end, print the final list.
