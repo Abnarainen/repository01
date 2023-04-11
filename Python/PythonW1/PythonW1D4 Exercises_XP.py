@@ -215,9 +215,52 @@
 #     if 16 <= client_age >= 21 :
 #         allowed_customer.append(client)
 # print(allowed_customer)
+
 # ------------------------------------------------------
 
+# Exercise 10 : Sandwich Orders
+# Instructions
+# sandwich_orders = ["Tuna sandwich", "Avocado sandwich", "Egg sandwich", "Sabih sandwich", "Pastrami sandwich"]
+
+# Use the above list called sandwich_orders.
+# Make an empty list called finished_sandwiches.
+# As each sandwich is made, move it to the list of finished sandwiches.
+# After all the sandwiches have been made, print a message listing each sandwich that was made , such as I made your tuna sandwich.
+
+#--> Solution:
+
+# sandwich_orders = ["Tuna sandwich", "Avocado sandwich", "Egg sandwich", "Sabih sandwich", "Pastrami sandwich"]
+# finished_sandwiches = list()
+
+# for sandwich in sandwich_orders:
+#     finished_sandwiches.append(sandwich_orders)
+#     print(f'I have made your {sandwich}')
+
+# ------------------------------------------------------
+
+# Exercise 11 : Sandwich Orders#2
+# Instructions
+# Using the list sandwich_orders from the previous exercise, make sure the sandwich ‘pastrami’ appears in the list at least three times.
+# Add code near the beginning of your program to print a message saying the deli has run out of pastrami, and then use a while loop to 
+# remove all occurrences of ‘pastrami’ from sandwich_orders.Make sure no pastrami sandwiches end up in finished_sandwiches.
+
+# sandwich_orders = ["Tuna sandwich", "Avocado sandwich", "Egg sandwich", "Sabih sandwich", "Pastrami sandwich",  "Pastrami sandwich",  "Pastrami sandwich"]
+# finished_sandwiches = []
+
+# print("Sandwich orders are: ")
+
+# for i, sandwich in enumerate (sandwich_orders):
+#     print(f'{i + 1}. {sandwich}')
 
 
+# print("Sandwich making: ")
+# while "Pastrami sandwich" in sandwich_orders:
+#     sandwich_orders.remove("Pastrami sandwich")
+#     print('Sorry, we run out of Pastrami for your sandwich')
 
+# print("Here is your final order: ")
+# for i, order in enumerate(sandwich_orders):
+#     finished_sandwiches.append(sandwich_orders)
+#     print (f'{i+1}.{order}')
 
+# ------------------------------------------------------
