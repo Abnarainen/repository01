@@ -207,14 +207,14 @@
 # print(f"The total cost is {total_cost} ")
 
 #--> Solution for teenagers:
-# client_name = ["Abraham", "Martine", "Schon", "Anaelle", "John"]
-# allowed_customer = []
+client_name = ["Abraham", "Martine", "Schon", "Anaelle", "John"]
+allowed_customer = []
 
-# for client in client_name:
-#     client_age = int(input("What is your age {}? ".format(client)))
-#     if 16 <= client_age >= 21 :
-#         allowed_customer.append(client)
-# print(allowed_customer)
+for client in client_name:
+    client_age = int(input("What is your age {}? ".format(client)))
+    if 16 <= client_age >= 21 :
+        allowed_customer.append(client)
+print(allowed_customer)
 
 # ------------------------------------------------------
 
